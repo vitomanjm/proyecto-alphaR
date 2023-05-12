@@ -1,4 +1,10 @@
+[build]
+command = "npm run build && npm run start"
+publish = "/build"
+base = "/public"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
